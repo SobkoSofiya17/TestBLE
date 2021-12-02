@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		52154D272754EF9A00BDCE65 /* TestBLEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D262754EF9A00BDCE65 /* TestBLEApp.swift */; };
-		52154D292754EF9A00BDCE65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D282754EF9A00BDCE65 /* ContentView.swift */; };
+		52154D292754EF9A00BDCE65 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D282754EF9A00BDCE65 /* ConnectView.swift */; };
 		52154D2B2754EF9C00BDCE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52154D2A2754EF9C00BDCE65 /* Assets.xcassets */; };
 		52154D2E2754EF9C00BDCE65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52154D2D2754EF9C00BDCE65 /* Preview Assets.xcassets */; };
+		52154D362754F4F800BDCE65 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D352754F4F800BDCE65 /* Service.swift */; };
+		52154D382754F52600BDCE65 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D372754F52600BDCE65 /* CurrentView.swift */; };
+		52154D3A2754F53D00BDCE65 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D392754F53D00BDCE65 /* ColorView.swift */; };
+		52154D3C2754F55900BDCE65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D3B2754F55900BDCE65 /* ContentView.swift */; };
+		52154D3E2754F56900BDCE65 /* extantions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D3D2754F56900BDCE65 /* extantions.swift */; };
+		52154D402755169300BDCE65 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52154D3F2755169300BDCE65 /* New.swift */; };
+		797776C66A40B388296B9C2D /* Pods_TestBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0BC9DCE0BA09892CF4EE58 /* Pods_TestBLE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52154D232754EF9A00BDCE65 /* TestBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52154D262754EF9A00BDCE65 /* TestBLEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBLEApp.swift; sourceTree = "<group>"; };
-		52154D282754EF9A00BDCE65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52154D282754EF9A00BDCE65 /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
 		52154D2A2754EF9C00BDCE65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52154D2D2754EF9C00BDCE65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52154D352754F4F800BDCE65 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		52154D372754F52600BDCE65 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		52154D392754F53D00BDCE65 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		52154D3B2754F55900BDCE65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52154D3D2754F56900BDCE65 /* extantions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extantions.swift; sourceTree = "<group>"; };
+		52154D3F2755169300BDCE65 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		6E0B43141B34F0ABCB9FCD86 /* Pods-TestBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBLE.debug.xcconfig"; path = "Target Support Files/Pods-TestBLE/Pods-TestBLE.debug.xcconfig"; sourceTree = "<group>"; };
+		C7470E84CC5B062DA08E1013 /* Pods-TestBLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBLE.release.xcconfig"; path = "Target Support Files/Pods-TestBLE/Pods-TestBLE.release.xcconfig"; sourceTree = "<group>"; };
+		CD0BC9DCE0BA09892CF4EE58 /* Pods_TestBLE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBLE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797776C66A40B388296B9C2D /* Pods_TestBLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +54,8 @@
 			children = (
 				52154D252754EF9A00BDCE65 /* TestBLE */,
 				52154D242754EF9A00BDCE65 /* Products */,
+				772FB85F7CF4045E355961A7 /* Pods */,
+				79C107DD401F653914EC869E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				52154D262754EF9A00BDCE65 /* TestBLEApp.swift */,
-				52154D282754EF9A00BDCE65 /* ContentView.swift */,
+				52154D282754EF9A00BDCE65 /* ConnectView.swift */,
+				52154D352754F4F800BDCE65 /* Service.swift */,
+				52154D372754F52600BDCE65 /* CurrentView.swift */,
+				52154D392754F53D00BDCE65 /* ColorView.swift */,
+				52154D3B2754F55900BDCE65 /* ContentView.swift */,
+				52154D3D2754F56900BDCE65 /* extantions.swift */,
+				52154D3F2755169300BDCE65 /* New.swift */,
 				52154D2A2754EF9C00BDCE65 /* Assets.xcassets */,
 				52154D2C2754EF9C00BDCE65 /* Preview Content */,
 			);
@@ -67,6 +92,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		772FB85F7CF4045E355961A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B43141B34F0ABCB9FCD86 /* Pods-TestBLE.debug.xcconfig */,
+				C7470E84CC5B062DA08E1013 /* Pods-TestBLE.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79C107DD401F653914EC869E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0BC9DCE0BA09892CF4EE58 /* Pods_TestBLE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52154D312754EF9C00BDCE65 /* Build configuration list for PBXNativeTarget "TestBLE" */;
 			buildPhases = (
+				A2ECD0E65647DE2FB58A58D0 /* [CP] Check Pods Manifest.lock */,
 				52154D1F2754EF9A00BDCE65 /* Sources */,
 				52154D202754EF9A00BDCE65 /* Frameworks */,
 				52154D212754EF9A00BDCE65 /* Resources */,
+				C81669B415C6E0D965C6D736 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +177,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2ECD0E65647DE2FB58A58D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestBLE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81669B415C6E0D965C6D736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestBLE/Pods-TestBLE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestBLE/Pods-TestBLE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestBLE/Pods-TestBLE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52154D1F2754EF9A00BDCE65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52154D292754EF9A00BDCE65 /* ContentView.swift in Sources */,
+				52154D292754EF9A00BDCE65 /* ConnectView.swift in Sources */,
+				52154D3E2754F56900BDCE65 /* extantions.swift in Sources */,
 				52154D272754EF9A00BDCE65 /* TestBLEApp.swift in Sources */,
+				52154D3C2754F55900BDCE65 /* ContentView.swift in Sources */,
+				52154D382754F52600BDCE65 /* CurrentView.swift in Sources */,
+				52154D362754F4F800BDCE65 /* Service.swift in Sources */,
+				52154D402755169300BDCE65 /* New.swift in Sources */,
+				52154D3A2754F53D00BDCE65 /* ColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,19 +356,25 @@
 		};
 		52154D322754EF9C00BDCE65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0B43141B34F0ABCB9FCD86 /* Pods-TestBLE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestBLE/Preview Content\"";
+				DEVELOPMENT_TEAM = 9K633ZT95W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,19 +390,25 @@
 		};
 		52154D332754EF9C00BDCE65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7470E84CC5B062DA08E1013 /* Pods-TestBLE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestBLE/Preview Content\"";
+				DEVELOPMENT_TEAM = 9K633ZT95W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

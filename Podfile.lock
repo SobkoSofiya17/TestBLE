@@ -1,0 +1,16 @@
+PODS:
+  - BluetoothKit (0.4.0)
+
+DEPENDENCIES:
+  - BluetoothKit
+
+SPEC REPOS:
+  trunk:
+    - BluetoothKit
+
+SPEC CHECKSUMS:
+  BluetoothKit: 00e189e01ba765e2689c46fbd8d0ede62984441b
+
+PODFILE CHECKSUM: 9a5e70e5802c9f596c3ac6f85dc1df037d6095a2
+
+COCOAPODS: 1.11.2
